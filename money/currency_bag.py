@@ -22,4 +22,4 @@ class CurrencyBag:
         path = os.path.join('config', 'currencies.yaml')
 
         with open(path, 'r') as currencies_list:
-            return yaml.load(currencies_list)
+            return yaml.load(currencies_list, Loader=yaml.FullLoader)
