@@ -1,0 +1,12 @@
+EUR:
+      code        : EUR
+      name        : Euro
+      minor_unit  : 2
+      iso_code    : 978
+USD:
+      code        : USD
+      name        : US Dollar
+      minor_unit  : 2
+      iso_code    : 840
+
+
